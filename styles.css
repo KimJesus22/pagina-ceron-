@@ -98,6 +98,11 @@ h1 {
   margin-bottom: 1.2rem;
 }
 h1 span { color: var(--accent); }
+.hero-location {
+  font-size: .9rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
 .hero-sub {
   font-size: 1.1rem;
   color: var(--muted);
@@ -240,6 +245,109 @@ section { padding: 5rem 2rem; }
   margin-bottom: .5rem;
 }
 .servicio-card p { font-size: .88rem; color: var(--muted); }
+
+/* ── TARIFAS ── */
+#tarifas { background: var(--section-bg); }
+.tarifas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin-top: 3rem;
+}
+.tarifa-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: var(--bg);
+  transition: box-shadow .2s, border-color .2s, transform .15s;
+}
+.tarifa-card:hover {
+  box-shadow: 0 6px 20px rgba(26,86,219,.1);
+  border-color: #bfdbfe;
+  transform: translateY(-2px);
+}
+.tarifa-destacada {
+  border-color: var(--accent);
+  background: #eff6ff;
+}
+.tarifa-nombre {
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--muted);
+  margin-bottom: .5rem;
+}
+.tarifa-precio {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: .4rem;
+}
+.tarifa-destacada .tarifa-precio { color: var(--accent-dark); }
+.tarifa-desc { font-size: .83rem; color: var(--muted); }
+.tarifas-nota {
+  margin-top: 2rem;
+  font-size: .8rem;
+  color: var(--muted);
+  border-left: 3px solid var(--border);
+  padding-left: 1rem;
+}
+
+/* ── REDES SOCIALES ── */
+#redes { background: var(--bg); }
+.redes-botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+.red-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .93rem;
+  padding: .8rem 1.6rem;
+  border-radius: 8px;
+  transition: opacity .2s, transform .15s;
+  color: #fff;
+}
+.red-btn:hover { opacity: .88; transform: translateY(-1px); }
+.red-fb { background: #1877f2; }
+.red-wa { background: #25d366; }
+.red-gm { background: #ea4335; }
+
+.guia-grid {
+  background: var(--section-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2.5rem;
+}
+.guia-header { margin-bottom: 2rem; }
+.guia-header h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: .4rem;
+}
+.guia-tips { display: flex; flex-direction: column; gap: 1.5rem; }
+.guia-tip { display: flex; gap: 1.2rem; align-items: flex-start; }
+.guia-num {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #bfdbfe;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 2rem;
+}
+.guia-tip strong { display: block; font-size: .95rem; margin-bottom: .25rem; }
+.guia-tip p { font-size: .85rem; color: var(--muted); margin: 0; }
+
+/* email link en contacto */
+.contacto-info a { color: var(--text); text-decoration: none; }
+.contacto-info a:hover { color: var(--accent); }
 
 /* ── POR QUÉ YO ── */
 #valores { background: var(--section-bg); }
