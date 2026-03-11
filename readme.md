@@ -1,6 +1,6 @@
 # Página Web — Adrián Cerón López, Abogado
 
-Sitio web profesional de una sola página (landing page) para el Lic. Adrián Cerón López, recién egresado de la Licenciatura en Derecho.
+Sitio web profesional de una sola página (landing page) para el Lic. Adrián Cerón López, recién egresado de la Licenciatura en Derecho, con base en Jaral del Progreso, Guanajuato. Diseñada para reemplazar tarjetas de presentación y conseguir primeros clientes en la región.
 
 ---
 
@@ -21,11 +21,13 @@ pagina ceron/
 
 | Sección | Descripción |
 |---|---|
-| **Hero** | Nombre, título y botón de contacto directo por WhatsApp |
+| **Hero** | Nombre, título, ubicación (Jaral del Progreso, Gto.) y botón WhatsApp |
 | **Sobre mí** | Foto, presentación, chips de especialidad y cédula profesional |
 | **Servicios** | 6 tarjetas: Familiar, Civil, Penal, Laboral, Preventiva, Inmobiliario |
+| **Tarifas** | 8 tarjetas de precios orientativos + botón de cotización por WhatsApp |
 | **¿Por qué yo?** | 4 valores: atención, transparencia, comunicación, ética |
-| **Contacto** | Botón WhatsApp + formulario que genera mensaje pre-llenado |
+| **Redes sociales** | Botones de Facebook, WhatsApp y Gmail + guía de 5 tips para conseguir clientes |
+| **Contacto** | Datos completos (tel, ubicación, cobertura, email, horario) + formulario → WhatsApp |
 
 ---
 
@@ -67,6 +69,28 @@ Busca `Lunes a viernes, 9:00 – 18:00` en `index.html` y edítalo.
 
 ### Cambiar o agregar servicios
 Copia uno de los bloques `.servicio-card` en `index.html` y edita el emoji, título y descripción.
+
+### Cambiar o agregar tarifas
+Copia uno de los bloques `.tarifa-card` en `index.html` y edita el nombre, precio y descripción. Para destacar una tarjeta agrega la clase `tarifa-destacada`.
+
+### Cambiar municipios de cobertura
+Busca `Atención también en Valle de Santiago` en `index.html` y edita la lista de municipios.
+
+### Cambiar enlaces de redes sociales
+- **Facebook:** busca `facebook.com/adrian.ceron.7509` y reemplaza con el nuevo perfil
+- **Gmail:** busca `ceronadrian770@gmail.com` y reemplaza (aparece en dos lugares: el botón de redes y el contacto)
+
+---
+
+## Datos de contacto configurados
+
+| Canal | Valor |
+|---|---|
+| WhatsApp | 456-126-6998 (`+52 456 126 6998`) |
+| Gmail | ceronadrian770@gmail.com |
+| Facebook | facebook.com/adrian.ceron.7509 |
+| Ubicación | Jaral del Progreso, Guanajuato |
+| Cobertura | Valle de Santiago, Yuriria, Salvatierra, Uriangato, Moroleón, Salamanca |
 
 ---
 
